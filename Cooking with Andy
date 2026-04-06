@@ -1,0 +1,107 @@
+/* =============================================
+   Global styles
+   ============================================= */
+
+/* Set a clean font for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Constrain content width so lines don't get too wide */
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px 24px;
+}
+
+
+/* =============================================
+   Header
+   ============================================= */
+
+header {
+  background-color: #dddddd;
+}
+
+/* Site title inside the header */
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+/* Navigation links */
+nav a {
+  color: #0000ee;     /* Default browser link blue */
+  margin-right: 4px;
+  text-decoration: underline;
+}
+
+nav a:visited {
+  color: #551a8b;     /* Default browser visited purple */
+}
+
+
+/* =============================================
+   Main content
+   ============================================= */
+
+/* Recipe page title */
+main h2 {
+  font-size: 1.5rem;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+/* Section headings (Ingredients, Instructions) */
+main h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+/* Body text */
+main p {
+  margin-bottom: 16px;
+}
+
+/* Ingredient and instruction lists */
+ul,
+ol {
+  padding-left: 24px;
+  margin-bottom: 16px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+
+/* =============================================
+   Aside — egg substitute tip box
+   ============================================= */
+
+aside {
+  background-color: #dddddd;
+  padding: 16px 20px;
+  margin: 16px 0;
+}
+
+aside p {
+  margin: 0;
+}
+
+
+/* =============================================
+   Footer
+   ============================================= */
+
+footer {
+  background-color: #dddddd;
+  text-align: left;
+  margin-top: 32px;
+}
